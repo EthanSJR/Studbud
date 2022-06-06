@@ -1,0 +1,27 @@
+{
+  "name": "studbud",
+  "version": "1.0.0",
+  "description": "DECO2017",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "parcel build ./public/index.html",
+    "dev": "parcel serve ./public/index.html",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanSJR/Studbud.git"
+  },
+  "author": "Ethan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanSJR/Studbud/issues"
+  },
+  "homepage": "https://github.com/EthanSJR/Studbud#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "parcel": "^2.6.0",
+    "sass": "^1.52.2"
+  }
+}

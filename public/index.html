@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Studbud</title>
+    <link href="./allcss/musicplayer.css" rel="stylesheet">
+    <link href="./allcss/pomodoro.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<!--below is the music player-->
+    <body>
+    <audio id="player" src="./allmp3/刚好遇见你.mp3"></audio>
+        <div class="player" >
+        <div class="control">
+            <i class="fas fa-play" id="playbtn"></i>
+            </div>
+            <div class="info">
+                Happen to Meet You - Yugang Li
+                <div class="bar">
+                    <div id="progress"></div>
+                </div> 
+            </div>
+            <div id="current">0:00</div>
+        </div>  
+        <script src="./alljs/musicplayer.js"></script>
+    </body>
+<!--below is the pomodorotimer-->   
+    <body>
+    <div class = "timer">
+        <div class = "min">0</div>
+        <div>:</div>
+        <div class = "sec">00</div>
+        <audio src = "./allmp3/TIMEUP.mp3"></audio>
+        <svg class = "progress-ring">
+            <circle class = "progress-ring-cirle" 
+            stroke-width = "8"
+            fill = "transparent"
+            r = "50"
+            cx = "60"
+            cy = "60"
+            />
+        </svg>
+    </div>
+    <div class ="btn-group">
+        <button class = "starttimer"> Concentrate!</button>
+        <button class = "resettimer"> reset</button>
+        <button class = "pausetimer"> pause</button>
+    </div>    
+    </body>     
+</html>

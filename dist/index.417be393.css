@@ -1,0 +1,78 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap";
+@import "https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
+body {
+  filter: progid:DXImageTransform. Microsoft. gradient(startColorstr= "#d100ff", endColorstr= "#ffffff", GradientType= 1);
+  min-height: flex;
+  --bg: #613594;
+  background: linear-gradient(126deg, #d100ff 0%, #fff 96%);
+  background-color: var(--bg);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.player {
+  width: 640px;
+  background-color: var(--bg);
+  grid-gap: 16px;
+  border-radius: 64px;
+  grid-template-columns: 48px 1fr 48px;
+  padding: 8px 24px;
+  display: grid;
+  position: relative;
+}
+
+.control, #current {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-block: 16px;
+  display: flex;
+}
+
+#playbtn {
+  color: #0000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#playbtn:hover {
+  -webkit-text-fill-color: white;
+}
+
+.info {
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  display: flex;
+}
+
+#current {
+  text-align: right;
+}
+
+.bar {
+  --space: -4px;
+  left: var(--space);
+  right: var(--space);
+  top: var(--space);
+  bottom: var(--space);
+  z-index: -2;
+  background-color: #24242424;
+  border-radius: 64px;
+  position: absolute;
+  overflow: hidden;
+}
+
+#progress {
+  display: bolck;
+  width: var(--progress, 0%);
+  height: 100%;
+  background-color: #fff;
+  transition: all 1s linear;
+}
+
+/*# sourceMappingURL=index.417be393.css.map */
