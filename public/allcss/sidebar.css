@@ -35,18 +35,22 @@
     transition: left .5s ease-in-out;
   }
   .sidebar-header{
-    width: 85%;
+    
+    width: 100%;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    
   }
   .close-sidebar{
     cursor: pointer;
   }
   .close-sidebar:hover{
-    color: red;
+    color: white;
   }
   .sidebar-body-menu{
+    position:relative;
+    top:-500px;
     list-style: none;
     display:flex;
     flex-direction: column;
@@ -57,6 +61,7 @@
   .sidebar-body-menu-item{
     margin: 10px 0;
     cursor: pointer;
+    color: white;
   }
   
   .active{

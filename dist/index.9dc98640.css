@@ -38,7 +38,7 @@ a.toggle-btn:hover {
 }
 
 .sidebar-header {
-  width: 85%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -49,7 +49,7 @@ a.toggle-btn:hover {
 }
 
 .close-sidebar:hover {
-  color: red;
+  color: #fff;
 }
 
 .sidebar-body-menu {
@@ -58,10 +58,13 @@ a.toggle-btn:hover {
   align-items: center;
   list-style: none;
   display: flex;
+  position: relative;
+  top: -500px;
 }
 
 .sidebar-body-menu-item {
   cursor: pointer;
+  color: #fff;
   margin: 10px 0;
 }
 
