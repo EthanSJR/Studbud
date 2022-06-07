@@ -1,4 +1,3 @@
-// Setting up variables for our HTML elements using DOM selection
 const form = document.getElementById("taskform");
 const button = document.querySelector("#taskform > button");
 const tasklist = document.getElementById("tasklist");
@@ -39,7 +38,6 @@ function renderTask(task) {
     delButton.addEventListener("click", function(event) {
         item.remove();
     });
-    // Clear the value of the input once the task has been added to the page
     form.reset();
 }
 

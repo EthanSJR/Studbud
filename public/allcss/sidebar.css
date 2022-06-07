@@ -1,4 +1,4 @@
-.container{
+.sidebarcontainer{
     width:100%;
     height:97vh;
     position: relative;
@@ -17,7 +17,7 @@
     top: -20px;
   }
   a.toggle-btn:hover{
-    text-shadow: 0 0 10px #00a4ad;
+    text-shadow: 0 0 30px #00ffff;
   }
   .sidebar{
     padding:10px;

@@ -9,9 +9,11 @@
     <link href="/index.837b184d.css" rel="stylesheet">
     <link href="/index.9dc98640.css" rel="stylesheet">
     <link href="/index.389b4e42.css" rel="stylesheet">
+    <link href="/index.63350f75.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
 <body>
+<div class="overall">
 <!--below is the music player-->
 <div class="player">
     <audio id="player" src="/刚好遇见你.46ccd7a9.mp3"></audio>
@@ -26,13 +28,35 @@
               <div id="current">0:00</div>
             </div>  
       <script src="/index.a0db2ee5.js"></script>
-    
+    </div>
 
 
 <!--below is the pomodorotimer-->   
-
+    <!-- Session -->
+    <div class="timercontainer">
+        <h1>Pomodoro Timer</h1>
+        <div id="timercontainer">
+            <p id="work" class="label">Work:</p><p id="break" class="label">Break:</p><p id="cycles" class="label">Cycles:</p>
+            <!--Work Timer-->
+            <div id="work-timer" class="timer">
+                <p id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
+            </div>
+    
+            <!--Cycle Counter-->
+            <p id="counter" class="timer">0</p>
+    
+            <!--Break Timer-->
+            <div id="break-timer" class="timer">
+                <p id="b_minutes">05</p><p class="semicolon">:</p><p id="b_seconds">00</p>
+            </div>
+            <button id="start" class="btn">Start</button>
+            <button id="stop" class="btn">Pause</button>
+            <button id="reset" class="btn">Reset</button>
+        </div>
+    <script src="/index.73bb45ef.js"></script>
+</div>
 <!-- The side bar-->
-<div class="container">
+<div class="sidebarcontainer">
     <a href="#" id="menu-btn" class="toggle-btn">三</a>
      <aside class="sidebar">
        <div class="sidebar-header">
@@ -49,6 +73,7 @@
      </aside>
      <script src="/index.d7e94c19.js"></script>
   </div>
+
 <!-- The dropdown button-->
 <div class="dropdown">
     <button class="dropbtn" onclick="myFunction()">Tools
@@ -65,7 +90,47 @@
 <!-- The Kanban board-->
 
 <!-- below is the tasklist-->
+<div class="tasklist">
+    <form id="taskform">
+    <label for="task">Task:</label>
+    <input type="text" name="task" id="taskInput">
 
+    <br>
+  <!-- Date input -->
+    <label for="dueDate">Due Date: </label>
+    <input type="date" name="dueDate" id="dueDateInput">
+    <br>
+  <!-- Time input -->
+  <label for="completionTime">Completion Time: </label>
+    <input type="time" name="completionTime" id="completionTimeInput">
+
+    <br>
+
+  <label for="estimatedTime">Time Est:</label>
+  <input type="number" name="estimatedTime" id="estimatedTimeInput">
+  <!-- Priority -->
+  <br>
+
+  <label for="priority">Task Priority:</label>
+  <select name="prority" id="priorityInput">
+    <option value="">Select one</option>
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+  </select>
+
+  <br>
+
+    <button type="submit" class="tasklistbtn">Submit</button>
+    </form>
+  <ul id="tasklist">
+  </ul>
+  <script src="/index.3d9cc09f.js"></script>
+</div>
 <!-- Listening List Creator-->
+<div class="pagebox">
+
+</div>
+
 </body>
 </html>

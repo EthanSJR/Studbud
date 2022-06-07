@@ -12,4 +12,25 @@ body {
   background: linear-gradient(126deg, #d100ff 0%, #fff 96%);
 }
 
+.overall {
+  height: 50px;
+  width: 100%;
+  background-color: #555;
+  position: absolute;
+  top: 0;
+}
+
+.pagebox {
+  height: 900px;
+  width: 100%;
+  stroke-width: 20px;
+  z-index: 1;
+  opacity: .6;
+  background-color: #d284e6;
+  border: 5px solid #fff;
+  position: absolute;
+  top: 135px;
+  left: 50px;
+}
+
 /*# sourceMappingURL=index.837b184d.css.map */
