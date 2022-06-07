@@ -8,7 +8,7 @@
     <link href="./allcss/musicplayer.css" rel="stylesheet">
     <link href="./allcss/page.css" rel ="stylesheet">
     <link href="./allcss/sidebar.css" rel = "stylesheet">
-    <link href="./allcss/Kanban.css" rel = "stylesheet">
+    <link href="./allcss/dropdown.css" rel = "stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
 <body>
@@ -21,6 +21,7 @@
                 <div class="info">Happen to Meet You - Yugang Li
                 <div class="bar">
                 <div id="progress"></div> 
+                </div>
                 </div>
               <div id="current">0:00</div>
             </div>  
@@ -37,18 +38,30 @@
        <div class="sidebar-header">
          <span class="close-sidebar">&cross;</span>
        </div>
-       <div class="sidebar-body">
-         <div class="sidebar-body-menu">
-           <div class="sidebar-body-menu-item">KANBAN</div>
-           <div class="sidebar-body-menu-item">PROJECTS</div>
-           <div class="sidebar-body-menu-item">READINGS</div>
-           <div class="sidebar-body-menu-item">PLAYLIST</div>
+       <div class="sidebar-main">
+         <div class="sidebar-main-menu">
+           <div class="sidebar-main-menu-item">KANBAN</div>
+           <div class="sidebar-main-menu-item">PROJECTS</div>
+           <div class="sidebar-main-menu-item">READINGS</div>
+           <div class="sidebar-main-menu-item">PLAYLIST</div>
          </div>
        </div>
      </aside>
      <script src = "alljs/sidebar.js"></script>
   </div>
-
+<!-- The dropdown button-->
+<div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Tools
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Kanban Board</a>
+      <a href="#">Readings</a>
+      <a href="#">Tasklist</a>
+    </div>
+    <script src="./alljs/dropdown.js"></script>
+  </div>
+  
 <!-- The Kanban board-->
 
 <!-- below is the tasklist-->

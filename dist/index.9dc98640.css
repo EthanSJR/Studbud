@@ -52,7 +52,7 @@ a.toggle-btn:hover {
   color: #fff;
 }
 
-.sidebar-body-menu {
+.sidebar-main-menu {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -62,10 +62,17 @@ a.toggle-btn:hover {
   top: -500px;
 }
 
-.sidebar-body-menu-item {
+.sidebar-main-menu-item {
   cursor: pointer;
   color: #fff;
   margin: 10px 0;
+}
+
+.sidebar-main-menu-item:hover {
+  cursor: pointer;
+  color: #000;
+  margin: 10px 0;
+  font-size: 150%;
 }
 
 .active {

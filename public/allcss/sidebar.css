@@ -48,7 +48,7 @@
   .close-sidebar:hover{
     color: white;
   }
-  .sidebar-body-menu{
+  .sidebar-main-menu{
     position:relative;
     top:-500px;
     list-style: none;
@@ -58,10 +58,16 @@
     justify-content: space-between;
     
   }
-  .sidebar-body-menu-item{
+  .sidebar-main-menu-item{
     margin: 10px 0;
     cursor: pointer;
     color: white;
+  }
+  .sidebar-main-menu-item:hover{
+    margin: 10px 0;
+    font-size: 150%;  
+    cursor: pointer;
+    color: black;
   }
   
   .active{
