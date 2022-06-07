@@ -1,0 +1,15 @@
+@import "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Source+Sans+Pro:wght@300&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: 900;
+}
+
+body {
+  filter: progid:DXImageTransform. Microsoft. gradient(startColorstr= "#d100ff", endColorstr= "#ffffff", GradientType= 1);
+  background: linear-gradient(126deg, #d100ff 0%, #fff 96%);
+}
+
+/*# sourceMappingURL=index.837b184d.css.map */

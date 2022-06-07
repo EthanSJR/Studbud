@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-body{
-    background: rgb(209,0,255);
-    background: -moz-linear-gradient(126deg, rgba(209,0,255,1) 0%, rgba(255,255,255,1) 96%);
-    background: -webkit-linear-gradient(126deg, rgba(209,0,255,1) 0%, rgba(255,255,255,1) 96%);
-    background: linear-gradient(126deg, rgba(209,0,255,1) 0%, rgba(255,255,255,1) 96%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d100ff",endColorstr="#ffffff",GradientType=1);
-}
 
 /* unused spotify player method.
 spotify{
@@ -33,23 +26,21 @@ spotify{
 }
 */
 
-body {
+.player {
+    width:640px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     min-height: flex;
     --bg:#613594;
     background-color:var(--bg);
     color:white;
-}
-.player {
-    width:640px;
-    background-color:var(--bg);
     display: grid;
     grid-template-columns: 48px 1fr 48px;
     grid-gap:16px;
     padding:8px 24px;
     position:relative;
+    left: 70%;
     border-radius: 64px;
 
 }
