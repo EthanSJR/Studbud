@@ -5,8 +5,13 @@ var wm = document.getElementById("w_minutes");
 var ws = document.getElementById("w_seconds");
 var bm = document.getElementById("b_minutes");
 var bs = document.getElementById("b_seconds");
+var timerframe = document.getElementById("timerframe");
 //store a reference to a timer variable
 var startTimer;
+function showtimerFunction() {
+    if (timerframe.style.display === "none") timerframe.style.display = "block";
+    else timerframe.style.display = "none";
+}
 start.addEventListener("click", function() {
     if (startTimer === undefined) startTimer = setInterval(timer, 1000);
     else alert("Timer is already running");
