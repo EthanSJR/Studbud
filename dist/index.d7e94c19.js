@@ -1,7 +1,7 @@
 let menu_btn = document.getElementById("menu-btn");
 let sidebar = document.querySelector(".sidebar");
 let close_btn = document.querySelector(".close-sidebar");
-let container = document.querySelector(".container");
+let sidebarcontainer = document.querySelector(".sidebarcontainer");
 let toggle_btn = document.querySelector(".toggle-btn");
 menu_btn.addEventListener("click", function() {
     sidebar.classList.add("active");

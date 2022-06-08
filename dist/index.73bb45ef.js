@@ -8,10 +8,12 @@ var bs = document.getElementById("b_seconds");
 var timerframe = document.getElementById("timerframe");
 //store a reference to a timer variable
 var startTimer;
+// showtimerfunction button
 function showtimerFunction() {
-    if (timerframe.style.display === "none") timerframe.style.display = "block";
-    else timerframe.style.display = "none";
+    if (timerframe.display === "none") timerframe.display = "block";
+    else timerframe.display = "none";
 }
+// start  reset and stop functions w text change
 start.addEventListener("click", function() {
     if (startTimer === undefined) startTimer = setInterval(timer, 1000);
     else alert("Timer is already running");

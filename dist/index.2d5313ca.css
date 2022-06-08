@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.readinglistbody {
+  height: 100%;
+  width: 500px;
+  opacity: .8;
+  z-index: 999;
+  background: url("https://nypost.com/wp-content/uploads/sites/2/2019/03/old-library-book.jpg?quality=75&strip=all");
+  border-color: #d1d1d1;
+  position: absolute;
+  top: 135px;
+  left: 1500px;
+}
+
+h1 {
+  text-align: center;
+  color: #f60;
+  margin: 20px auto;
+  font-size: 40px;
+  position: relative;
+}
+
+.content {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.box {
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #f60;
+  position: relative;
+}
+
+.box > span {
+  float: left;
+  margin-left: 5px;
+  font-size: 18px;
+  line-height: 30px;
+  position: relative;
+}
+
+.box > input {
+  float: right;
+  width: 88%;
+  height: 28px;
+  border: none;
+  outline: none;
+  position: relative;
+}
+
+.box2 {
+  width: 100%;
+  position: relative;
+}
+
+.box2 > #list > .item {
+  width: 100%;
+  height: 30px;
+  color: snow;
+  background-color: #f8a52a99;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.box2 > ul > .item > .infor {
+  margin-left: 15px;
+  font-size: 18px;
+  line-height: 30px;
+  display: inline;
+  position: relative;
+}
+
+.box2 > ul > .item > .del {
+  float: right;
+  user-select: none;
+  margin-right: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+}
+
+.change {
+  display: none;
+  position: relative;
+}
+
+::placeholder {
+  color: #0ff;
+  position: relative;
+}
+
+/*# sourceMappingURL=index.2d5313ca.css.map */

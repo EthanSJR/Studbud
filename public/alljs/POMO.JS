@@ -13,16 +13,16 @@ var timerframe = document.getElementById('timerframe');
 //store a reference to a timer variable
 var startTimer;
 
-
-
+// showtimerfunction button
 function showtimerFunction(){ 
-
-    if (timerframe.style.display === "none") {
-      timerframe.style.display = "block";
+    if (timerframe.display === "none") {
+        timerframe.display = "block";
     } else {
-      timerframe.style.display = "none";
+        timerframe.display = "none";
     }
 }
+
+// start  reset and stop functions w text change
 start.addEventListener('click', function(){
     if(startTimer === undefined){
         startTimer = setInterval(timer, 1000)

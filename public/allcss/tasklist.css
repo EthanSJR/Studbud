@@ -6,7 +6,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     line-height: 40px;
-    width: 300px;
+    width: 400px;
     border:10px solid whitesmoke;
     padding: 40px;
     margin: 20px;
@@ -15,20 +15,17 @@
 	box-shadow: 9px 6px 6px -4px #3dc21b;
 	background-color:#44c767;
 	border-radius:18px;
-	border:3px solid #18ab29;
+	border:4px solid #18ab29;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Georgia;
+	font-family:Impact;
 	font-size:19px;
-	padding:11px 29px;
+	padding:18px 43px;
 	text-decoration:none;
 	text-shadow:3px 4px 3px #2f6627;
 }
 .tasklistbtn:hover {
 	background-color:#5cbf2a;
 }
-.tasklistbtn:active {
-	position:relative;
-	top:1px;
-}
+
