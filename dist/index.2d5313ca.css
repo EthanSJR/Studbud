@@ -12,14 +12,14 @@
   background: url("https://nypost.com/wp-content/uploads/sites/2/2019/03/old-library-book.jpg?quality=75&strip=all");
   border-color: #d1d1d1;
   position: absolute;
-  top: 135px;
+  top: 70px;
   left: 1500px;
 }
 
 h1 {
   text-align: center;
-  color: #f60;
-  margin: 20px auto;
+  color: #800;
+  margin: 50px auto;
   font-size: 40px;
   position: relative;
 }

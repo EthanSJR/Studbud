@@ -90,7 +90,18 @@
   </div>
   
 <!-- The Kanban board-->
-<div id="app"></div>
+<div id="kanban">
+    <div ondrop="drop(event, this)" ondragover="allowDrop(event)" id="todo" class="column">
+      <h1 class="label" id="todoLabel">Todo</h1>
+      <button id="newButton" onclick="newItem()"><img src="/plusSign.471f892c.png"> <p>New</p></button>
+    </div>
+    <div ondrop="drop(event, this)" ondragover="allowDrop(event)" class="column">
+      <h1 class="label" id="doingLabel">Doing</h1>
+    </div>
+    <div ondrop="drop(event, this)" ondragover="allowDrop(event)" class="column">
+      <h1 class="label" id="doneLabel">Done</h1>
+    </div>
+  </div>
   <script src="/index.15de983a.js"></script>
 
 <!-- below is the tasklist-->

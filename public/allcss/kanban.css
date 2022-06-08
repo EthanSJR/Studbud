@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+}
+
+#kanban {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #ff7e7e;
+  border-radius: 10px;
+  border-color: black;
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  top:200px;
+  left:510px;
+  display: flex;
+  z-index: 999;
+  opacity: 1;
+}
+
+
+button {
+  color: rgb(0, 145, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #ffb6b6;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #800000;
+}
+
+img {
+  height: 16px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 100%;
+  width: 300px;
+  text-align: center;
+}
+
+.todo {
+  padding: 15px;
+  border: 1px solid #aaa;
+  outline: none;
+  box-shadow: 0.5px 0.5px 3px #999;
+  margin-top: 10px;
+}
+
+#todoLabel {
+  background-color: #ffb923;
+}
+
+#doingLabel {
+  background-color: #e1f045;
+}
+
+#doneLabel {
+  background-color: #bffc3d;
+}
+
+.label {
+  padding: 10px 5px;
+  border-radius: 8px;
+}
