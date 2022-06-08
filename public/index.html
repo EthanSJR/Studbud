@@ -11,6 +11,7 @@
     <link href="./allcss/dropdown.css" rel = "stylesheet">
     <link href="./allcss/POMO.css" rel = "stylesheet">
     <link href="./allcss/readings.css" rel = "stylesheet">
+    <link href="./allcss/kanban.css" rel = "stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 </head>
 <body>
@@ -29,8 +30,8 @@
                 </div>
             </div>
               <div id="current">0:00</div>
-            </div>  
-      <script src="./alljs/musicplayer.js"></script>
+</div>  
+<script src="./alljs/musicplayer.js"></script>
   </div>
 
 <!-- The side bar-->
@@ -52,11 +53,9 @@
      <script src = "alljs/sidebar.js"></script>
   </div>
 
-
-
 <!--below is the pomodorotimer-->
 <a href="#" id="showtimerbtn" class="pomobtn" onclick ="showtimerFunction()">POMO</a>
-    <div id="timerframe">
+<div id="timerframe">
     <p id="work" class="label">Work:</p><p id="break" class="label">Break:</p><p id="cycles" class="label">Cycles:</p>
     <!--Work Timer-->
     <div id="work-timer" class="timer">
@@ -74,7 +73,7 @@
     <button id="stop" class="btn">Pause</button>
     <button id="reset" class="btn">Reset</button>
 </div>
-<script src ="alljs/POMO.JS"></script>
+    <script src ="alljs/POMO.JS"></script>
 
 
 <!-- The dropdown button-->
@@ -91,6 +90,8 @@
   </div>
   
 <!-- The Kanban board-->
+<div id="app"></div>
+  <script src = "alljs/kanban.js"></script>
 
 <!-- below is the tasklist-->
 <div class = "tasklist">
@@ -129,15 +130,16 @@
   <ul id="tasklist">
   </ul>
   <script src="alljs/tasklist.js"></script>
-</div>
+    </div>
+
 <!-- readingList Creator-->
-    <div class = "readinglistbody">
+<div class = "readinglistbody">
     <a href="#" id="readingmenu-btn" class="readingtoggle-btn">三</a>
     <h1>READINGLIST</h1>
     <div class="content">
         <div class="box">
             <span class="iconfont icon-zhankai" id="hidden"></span>
-            <input type="text" placeholder = "drop down your url" id="input">
+            <input type="text" placeholder = "drop & enter your url" id="input">
         </div>
         <div class="box2">
             <ul id="list">
@@ -145,7 +147,8 @@
         </div>
     </div>
     </div>
-    <script src = "./alljs/readings.js"></script>
+<script src = "./alljs/readings.js"></script>
+
 <div class = "pagebox">
 
 </div>

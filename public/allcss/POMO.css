@@ -1,7 +1,7 @@
 #timerframe {
     height: 150px;
     width: 400px;
-    background-color: #7612b1;
+    background-color: #ececec;
     border: 5px solid #d9a0e0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -11,7 +11,7 @@
     left: 900px;
     z-index: 30;
     color:#cacaca;
-    opacity:0.7;
+    opacity:1;
 
 }
 .label {
@@ -98,7 +98,7 @@ p {
     top:0px;
     left: 900px;
     z-index: 999;
-    opacity: 0.7;
+    opacity: 1;
 }
 .pomobtn:hover {
 	background-color:#808080;

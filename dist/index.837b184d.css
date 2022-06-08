@@ -9,7 +9,8 @@
 
 body {
   filter: progid:DXImageTransform. Microsoft. gradient(startColorstr= "#d100ff", endColorstr= "#ffffff", GradientType= 1);
-  background: linear-gradient(126deg, #d100ff 0%, #fff 96%);
+  opacity: .7;
+  background: linear-gradient(126deg, #d100ff 0%, #fff 96%) no-repeat;
 }
 
 .overall {

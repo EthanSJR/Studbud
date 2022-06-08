@@ -3,7 +3,7 @@
 .player {
   width: 640px;
   min-height: flex;
-  --bg: #613594;
+  --bg: #240844;
   background-color: var(--bg);
   color: #fff;
   grid-gap: 16px;

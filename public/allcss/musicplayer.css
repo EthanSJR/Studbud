@@ -32,7 +32,7 @@ spotify{
     justify-content: right;
     align-items: center;
     min-height: flex;
-    --bg:#613594;
+    --bg:hsl(268, 79%, 15%);
     background-color:var(--bg);
     color:white;
     display: grid;
